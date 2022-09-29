@@ -1,3 +1,10 @@
+#zapaspuma, #zapasadidas, #zapasnike {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -117,12 +124,6 @@ header {
 }
 
 /*ZAPATILLAS NIKE*/
-#zapasnike {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 #zapasnike div {
   display: flex;
   flex-direction: row;
@@ -151,12 +152,6 @@ header {
   background-color: gray;
 }
 
-#zapasadidas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 #zapasadidas div {
   display: flex;
   flex-direction: row;
@@ -182,12 +177,6 @@ header {
 }
 
 /*ZAPATILLAS PUMA*/
-#zapaspuma {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 #zapaspuma div {
   display: flex;
   flex-direction: row;

@@ -1,4 +1,7 @@
+@import "./base/extend";
 @import "./base/variables";
+@import "./base/maps";
+@import"./base/mixin";
 
 
 *{
@@ -6,7 +9,7 @@
     padding:0;
 }
 header{
-    background-color:black;
+    background-color:map-get($main, bg-colores);
 }
 
 .navboton-blanco{
@@ -108,10 +111,7 @@ header{
  }
  /*ZAPATILLAS NIKE*/
 #zapasnike{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   @extend %zapatillas;
     div{
         display:flex;
     flex-direction:row;
@@ -143,11 +143,7 @@ header{
         }
     }
     #zapasadidas{
-        display:flex;
-        flex-direction:row;
-        justify-content:center;
-       
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        @extend %zapatillas;
     div{
         display: flex;
         flex-direction: row;
@@ -176,11 +172,7 @@ header{
     }
     /*ZAPATILLAS PUMA*/
 #zapaspuma{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    @extend %zapatillas;
 div{
     display: flex;
     flex-direction: row;
@@ -220,10 +212,7 @@ li{
     }
  }
  a{
-    text-decoration:none;
-    color: black;
-    font-size: 20px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+    @include letrasindumentaria($size, black)
 }
 }
 #buzos{
@@ -233,7 +222,7 @@ li{
     border: 10px solid $color-principal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    h2{
-       margin:10px;
+       margin:map-get($main, mg-distancia );
    }
 }
 .comprarbuzo div{
@@ -252,7 +241,7 @@ height: 300px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
 h2{
-       margin:10px;
+       margin:map-get($main, mg-distancia );
    }
 }
 .comprarremera{
@@ -274,7 +263,7 @@ img{
     border: 10px solid $color-principal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     h2{
-       margin:10px;
+       margin:map-get($main, mg-distancia );
     }
 }
 .comprarjeans div{
@@ -291,7 +280,7 @@ img{
     border: 10px solid $color-principal;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    h2{
-       margin:10px;
+       margin:map-get($main, mg-distancia );
     }
 }
 .comprarcampera div{

@@ -1,0 +1,7 @@
+$size:20px;
+@mixin letrasindumentaria($size, $color){
+    text-decoration: none;
+  color: $color;
+  font-size:$size;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
