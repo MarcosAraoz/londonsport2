@@ -3,7 +3,6 @@
 @import "./base/maps";
 @import"./base/mixin";
 
-
 *{
     margin:0;
     padding:0;
@@ -115,7 +114,9 @@ header{
     div{
         display:flex;
     flex-direction:row;
-        border:solid $color-principal 10px;
+        
+        background: rgb(18,9,121);
+background: linear-gradient(90deg, rgba(18,9,121,1) 51%, rgba(2,0,36,1) 72%, rgba(2,0,36,1) 95%);
     }
     img{
         width:80px;
@@ -125,6 +126,7 @@ header{
         }
         h2{
             padding:10px;
+            color: white;
         }
     }
     .zapatillasnk div {
@@ -147,7 +149,8 @@ header{
     div{
         display: flex;
         flex-direction: row;
-        border: 11px $color-principal solid;
+        background: rgb(18,9,121);
+background: linear-gradient(90deg, rgba(18,9,121,1) 51%, rgba(2,0,36,1) 72%, rgba(2,0,36,1) 95%);
     }
     img{
         width:80px;
@@ -157,6 +160,7 @@ header{
     }
     h2{
         padding:10px;
+        color: white;
     }
     }
     .adidaszapas div {
@@ -176,7 +180,8 @@ header{
 div{
     display: flex;
     flex-direction: row;
-    border: 11px $color-principal solid;
+    background: rgb(18,9,121);
+background: linear-gradient(90deg, rgba(18,9,121,1) 51%, rgba(2,0,36,1) 72%, rgba(2,0,36,1) 95%);
 }
 img{
     width:80px;
@@ -186,8 +191,12 @@ img{
 
 h2{
     padding:10px;
-
+  color:white;
 }
+}
+.pumazapatillas div {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*BODY INDUMENTARIA*/
 
@@ -269,9 +278,9 @@ img{
 .comprarjeans div{
     margin-top: 5px;
     margin-bottom: 5px;
-img{
-    height: 300px;
-}
+    img{
+        height: 300px;
+     }
 }
 #camperas{
     display: flex;
@@ -286,14 +295,16 @@ img{
 .comprarcampera div{
     margin-top: 5px;
     margin-bottom: 5px;
- img{
-    height: 300px;
- }
+    img{
+        height: 300px;
+     }
 }
 /* ACA ARRANCA EL FOOTER */
 
 footer{
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
     border-style: inset;
     div{
         color: white; display: inline-block; list-style:none;
@@ -309,8 +320,6 @@ footer{
 }
 /*CELU INDEX*/
 @media screen and (max-width:480px) {
-    .compunone{display: block;}
-    .celunone{display: none;}
     header nav ul {
         display: flex;
         flex-direction:column;

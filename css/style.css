@@ -127,7 +127,8 @@ header {
 #zapasnike div {
   display: flex;
   flex-direction: row;
-  border: solid darkblue 10px;
+  background: rgb(18, 9, 121);
+  background: linear-gradient(90deg, rgb(18, 9, 121) 51%, rgb(2, 0, 36) 72%, rgb(2, 0, 36) 95%);
 }
 #zapasnike img {
   width: 80px;
@@ -137,6 +138,7 @@ header {
 }
 #zapasnike h2 {
   padding: 10px;
+  color: white;
 }
 
 .zapatillasnk div {
@@ -155,7 +157,8 @@ header {
 #zapasadidas div {
   display: flex;
   flex-direction: row;
-  border: 11px darkblue solid;
+  background: rgb(18, 9, 121);
+  background: linear-gradient(90deg, rgb(18, 9, 121) 51%, rgb(2, 0, 36) 72%, rgb(2, 0, 36) 95%);
 }
 #zapasadidas img {
   width: 80px;
@@ -165,6 +168,7 @@ header {
 }
 #zapasadidas h2 {
   padding: 10px;
+  color: white;
 }
 
 .adidaszapas div {
@@ -180,7 +184,8 @@ header {
 #zapaspuma div {
   display: flex;
   flex-direction: row;
-  border: 11px darkblue solid;
+  background: rgb(18, 9, 121);
+  background: linear-gradient(90deg, rgb(18, 9, 121) 51%, rgb(2, 0, 36) 72%, rgb(2, 0, 36) 95%);
 }
 #zapaspuma img {
   width: 80px;
@@ -190,6 +195,12 @@ header {
 }
 #zapaspuma h2 {
   padding: 10px;
+  color: white;
+}
+
+.pumazapatillas div {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*BODY INDUMENTARIA*/
@@ -305,6 +316,8 @@ header {
 
 /* ACA ARRANCA EL FOOTER */
 footer {
+  display: flex;
+  flex-direction: row;
   background-color: black;
   border-style: inset;
 }
@@ -324,12 +337,6 @@ footer div li a {
 
 /*CELU INDEX*/
 @media screen and (max-width: 480px) {
-  .compunone {
-    display: block;
-  }
-  .celunone {
-    display: none;
-  }
   header nav ul {
     display: flex;
     flex-direction: column;
