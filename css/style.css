@@ -93,6 +93,34 @@ header {
   font-family: cursive;
 }
 
+form {
+  background-image: url(../Imagenes/fondonikezapas.jpg);
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: solid;
+  margin-bottom: 15px;
+}
+form h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.boton_formulario {
+  border-radius: 30px;
+  background-color: darkblue;
+  margin: 10px;
+  font-size: large;
+  color: white;
+}
+
+.boton_formulario:hover {
+  background-color: black;
+}
+
 /*BODY CALZADO*/
 .imgpresentacioncz img {
   width: 100%;
@@ -237,8 +265,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border: 10px solid darkblue;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#buzos div {
+  display: flex;
+  flex-direction: row;
+  border: 10px solid darkblue;
 }
 #buzos h2 {
   margin: 10px;
