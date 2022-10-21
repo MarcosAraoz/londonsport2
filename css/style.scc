@@ -177,22 +177,16 @@ form h1 {
   border: solid 2px black;
 }
 
-.zapatillasnk {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .zapatillasnk div {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
-.zapatillasnk h5 {
+.zapatillasnk div h5 {
   border: solid black 2px;
   font-family: "Rye", cursive;
 }
-.zapatillasnk h2 {
+.zapatillasnk div h2 {
   font-family: "Petit Formal Script", cursive;
 }
 
@@ -202,7 +196,7 @@ form h1 {
   color: white;
 }
 .boton-nike:hover {
-  background-color: black;
+  background-color: gray;
 }
 
 #zapasadidas div {
@@ -223,26 +217,20 @@ form h1 {
   color: white;
 }
 
-.adidaszapas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .adidaszapas div {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
-.adidaszapas img {
+.adidaszapas div img {
   width: 100%;
   height: 300px;
 }
-.adidaszapas h5 {
+.adidaszapas div h5 {
   font-family: "Rye", cursive;
   border: solid black 2px;
 }
-.adidaszapas h2 {
+.adidaszapas div h2 {
   font-family: "Petit Formal Script", cursive;
 }
 
@@ -265,22 +253,16 @@ form h1 {
   color: white;
 }
 
-.pumazapatillas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .pumazapatillas div {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
-.pumazapatillas h5 {
+.pumazapatillas div h5 {
   font-family: "Rye", cursive;
   border: solid black 2px;
 }
-.pumazapatillas h2 {
+.pumazapatillas div h2 {
   font-family: "Petit Formal Script", cursive;
 }
 
@@ -297,7 +279,7 @@ form h1 {
   border: solid black 10px;
   flex-wrap: wrap;
   background-color: #FFFFFF;
-  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  background-image: linear-gradient(84deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
 }
 .indumentaria li {
   margin: 10px 50px;
@@ -330,25 +312,19 @@ form h1 {
   font-family: "Comforter Brush", cursive;
 }
 
-.comprarbuzo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .comprarbuzo div {
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
 }
-.comprarbuzo h5 {
+.comprarbuzo div h5 {
   font-family: "Rye", cursive;
   border: solid black 2px;
 }
-.comprarbuzo h2 {
+.comprarbuzo div h2 {
   font-family: "Petit Formal Script", cursive;
 }
-.comprarbuzo img {
+.comprarbuzo div img {
   height: 300px;
 }
 
@@ -367,7 +343,6 @@ form h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 .comprarremera div {
   margin-top: 5px;
@@ -396,25 +371,19 @@ form h1 {
   border-bottom: 2px solid black;
 }
 
-.comprarjeans {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .comprarjeans div {
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
 }
-.comprarjeans img {
+.comprarjeans div img {
   height: 300px;
 }
-.comprarjeans h5 {
+.comprarjeans div h5 {
   font-family: "Rye", cursive;
   border: solid black 2px;
 }
-.comprarjeans h2 {
+.comprarjeans div h2 {
   font-family: "Petit Formal Script", cursive;
 }
 
@@ -429,25 +398,19 @@ form h1 {
   border-bottom: 2px solid black;
 }
 
-.comprarcampera {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
 .comprarcampera div {
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
 }
-.comprarcampera img {
+.comprarcampera div img {
   height: 300px;
 }
-.comprarcampera h5 {
+.comprarcampera div h5 {
   font-family: "Rye", cursive;
   border: solid black 2px;
 }
-.comprarcampera h2 {
+.comprarcampera div h2 {
   font-family: "Petit Formal Script", cursive;
 }
 
@@ -463,9 +426,6 @@ footer div {
   display: inline-block;
   list-style: none;
   margin: 20px;
-}
-footer div h3 {
-  font-family: fantasy;
 }
 footer div li {
   color: white;
@@ -521,4 +481,4 @@ footer div li a {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scc.map */
